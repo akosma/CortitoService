@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		B53D27B20DA1ACE500FE9F72 /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		3A7A4E231094D0320040EFBE /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4E191094D0320040EFBE /* ASIFormDataRequest.h */; };
+		3A7A4E241094D0320040EFBE /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A4E1A1094D0320040EFBE /* ASIFormDataRequest.m */; };
+		3A7A4E251094D0320040EFBE /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4E1B1094D0320040EFBE /* ASIHTTPRequest.h */; };
+		3A7A4E261094D0320040EFBE /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A4E1C1094D0320040EFBE /* ASIHTTPRequest.m */; };
+		3A7A4E271094D0320040EFBE /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4E1D1094D0320040EFBE /* ASIInputStream.h */; };
+		3A7A4E281094D0320040EFBE /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A4E1E1094D0320040EFBE /* ASIInputStream.m */; };
+		3A7A4E291094D0320040EFBE /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4E1F1094D0320040EFBE /* ASINetworkQueue.h */; };
+		3A7A4E2A1094D0320040EFBE /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A4E201094D0320040EFBE /* ASINetworkQueue.m */; };
+		3A7A4E2B1094D0320040EFBE /* ASINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4E211094D0320040EFBE /* ASINSStringAdditions.h */; };
+		3A7A4E2C1094D0320040EFBE /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A4E221094D0320040EFBE /* ASINSStringAdditions.m */; };
+		3A7A4E301094D03A0040EFBE /* CortitoProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4E2D1094D03A0040EFBE /* CortitoProxy.h */; };
+		3A7A4E311094D03A0040EFBE /* CortitoProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A4E2E1094D03A0040EFBE /* CortitoProxy.m */; };
+		3A7A4E321094D03A0040EFBE /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7A4E2F1094D03A0040EFBE /* SynthesizeSingleton.h */; };
+		3A7A4E3E1094D1230040EFBE /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A4E3D1094D1230040EFBE /* CoreServices.framework */; };
+		3A7A4E401094D1230040EFBE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A4E3F1094D1230040EFBE /* SystemConfiguration.framework */; };
+		3A7A4E421094D1230040EFBE /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A4E411094D1230040EFBE /* libz.1.2.3.dylib */; };
+		3A7A4EB31094D9440040EFBE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A4EB21094D9440040EFBE /* icon.png */; };
+		3AB0D0511137A63400DB9A04 /* Definitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB0D0501137A63400DB9A04 /* Definitions.h */; };
+		650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E79E1067AB5AE00B4A4EC /* Automator.framework */; };
+		65181752067A8D39005BD953 /* ShortenWithCortito.m in Sources */ = {isa = PBXBuildFile; fileRef = 65181750067A8D39005BD953 /* ShortenWithCortito.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* ShortenWithCortito_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortenWithCortito_Prefix.pch; sourceTree = "<group>"; };
+		3A7A4E191094D0320040EFBE /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		3A7A4E1A1094D0320040EFBE /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		3A7A4E1B1094D0320040EFBE /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		3A7A4E1C1094D0320040EFBE /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		3A7A4E1D1094D0320040EFBE /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		3A7A4E1E1094D0320040EFBE /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		3A7A4E1F1094D0320040EFBE /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		3A7A4E201094D0320040EFBE /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		3A7A4E211094D0320040EFBE /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		3A7A4E221094D0320040EFBE /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		3A7A4E2D1094D03A0040EFBE /* CortitoProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CortitoProxy.h; sourceTree = "<group>"; };
+		3A7A4E2E1094D03A0040EFBE /* CortitoProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CortitoProxy.m; sourceTree = "<group>"; };
+		3A7A4E2F1094D03A0040EFBE /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		3A7A4E3D1094D1230040EFBE /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		3A7A4E3F1094D1230040EFBE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A7A4E411094D1230040EFBE /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		3A7A4EB21094D9440040EFBE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3AB0D0501137A63400DB9A04 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		650E79E1067AB5AE00B4A4EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
+		6518174F067A8D39005BD953 /* ShortenWithCortito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortenWithCortito.h; sourceTree = "<group>"; };
+		65181750067A8D39005BD953 /* ShortenWithCortito.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortenWithCortito.m; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* ShortenWithCortito.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortenWithCortito.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */,
+				3A7A4E3E1094D1230040EFBE /* CoreServices.framework in Frameworks */,
+				3A7A4E401094D1230040EFBE /* SystemConfiguration.framework in Frameworks */,
+				3A7A4E421094D1230040EFBE /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ShortenWithCortito */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = ShortenWithCortito;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A4E3D1094D1230040EFBE /* CoreServices.framework */,
+				3A7A4E3F1094D1230040EFBE /* SystemConfiguration.framework */,
+				3A7A4E411094D1230040EFBE /* libz.1.2.3.dylib */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A4EB21094D9440040EFBE /* icon.png */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A4E181094D0320040EFBE /* ASIHTTPRequest */,
+				6518174F067A8D39005BD953 /* ShortenWithCortito.h */,
+				65181750067A8D39005BD953 /* ShortenWithCortito.m */,
+				3A7A4E2D1094D03A0040EFBE /* CortitoProxy.h */,
+				3A7A4E2E1094D03A0040EFBE /* CortitoProxy.m */,
+				3A7A4E2F1094D03A0040EFBE /* SynthesizeSingleton.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				650E79E1067AB5AE00B4A4EC /* Automator.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* ShortenWithCortito.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* ShortenWithCortito_Prefix.pch */,
+				3AB0D0501137A63400DB9A04 /* Definitions.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		3A7A4E181094D0320040EFBE /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A4E191094D0320040EFBE /* ASIFormDataRequest.h */,
+				3A7A4E1A1094D0320040EFBE /* ASIFormDataRequest.m */,
+				3A7A4E1B1094D0320040EFBE /* ASIHTTPRequest.h */,
+				3A7A4E1C1094D0320040EFBE /* ASIHTTPRequest.m */,
+				3A7A4E1D1094D0320040EFBE /* ASIInputStream.h */,
+				3A7A4E1E1094D0320040EFBE /* ASIInputStream.m */,
+				3A7A4E1F1094D0320040EFBE /* ASINetworkQueue.h */,
+				3A7A4E201094D0320040EFBE /* ASINetworkQueue.m */,
+				3A7A4E211094D0320040EFBE /* ASINSStringAdditions.h */,
+				3A7A4E221094D0320040EFBE /* ASINSStringAdditions.m */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B53D27B30DA1ACE500FE9F72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7A4E231094D0320040EFBE /* ASIFormDataRequest.h in Headers */,
+				3A7A4E251094D0320040EFBE /* ASIHTTPRequest.h in Headers */,
+				3A7A4E271094D0320040EFBE /* ASIInputStream.h in Headers */,
+				3A7A4E291094D0320040EFBE /* ASINetworkQueue.h in Headers */,
+				3A7A4E2B1094D0320040EFBE /* ASINSStringAdditions.h in Headers */,
+				3A7A4E301094D03A0040EFBE /* CortitoProxy.h in Headers */,
+				3A7A4E321094D03A0040EFBE /* SynthesizeSingleton.h in Headers */,
+				3AB0D0511137A63400DB9A04 /* Definitions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* ShortenWithCortito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "ShortenWithCortito" */;
+			buildPhases = (
+				B53D27B20DA1ACE500FE9F72 /* AppleScript */,
+				B53D27B30DA1ACE500FE9F72 /* Headers */,
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				B53D27B40DA1ACE500FE9F72 /* Rez */,
+				25038767080C6D0B00E1128B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortenWithCortito;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = ShortenWithCortito;
+			productReference = 8D5B49B6048680CD000E48DA /* ShortenWithCortito.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "akosma software";
+			};
+			buildConfigurationList = 4E59C34308A97622001206A8 /* Build configuration list for PBXProject "ShortenWithCortito" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* ShortenWithCortito */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* ShortenWithCortito */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				3A7A4EB31094D9440040EFBE /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B53D27B40DA1ACE500FE9F72 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25038767080C6D0B00E1128B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65181752067A8D39005BD953 /* ShortenWithCortito.m in Sources */,
+				3A7A4E241094D0320040EFBE /* ASIFormDataRequest.m in Sources */,
+				3A7A4E261094D0320040EFBE /* ASIHTTPRequest.m in Sources */,
+				3A7A4E281094D0320040EFBE /* ASIInputStream.m in Sources */,
+				3A7A4E2A1094D0320040EFBE /* ASINetworkQueue.m in Sources */,
+				3A7A4E2C1094D0320040EFBE /* ASINSStringAdditions.m in Sources */,
+				3A7A4E311094D03A0040EFBE /* CortitoProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E59C34008A97622001206A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShortenWithCortito_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = ShortenWithCortito;
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		4E59C34108A97622001206A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShortenWithCortito_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = ShortenWithCortito;
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+		4E59C34408A97622001206A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Debug;
+		};
+		4E59C34508A97622001206A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "ShortenWithCortito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E59C34008A97622001206A8 /* Debug */,
+				4E59C34108A97622001206A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E59C34308A97622001206A8 /* Build configuration list for PBXProject "ShortenWithCortito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E59C34408A97622001206A8 /* Debug */,
+				4E59C34508A97622001206A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
