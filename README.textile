@@ -1,0 +1,14 @@
+h1. Cortito Mac OS X Automator Action & Service
+
+This project creates an action which allows users to shorten URLs from "Automator":http://www.macosxautomation.com/automator/, using a backend instance of  "cortito":http://github.com/akosma/cortito.
+
+h2. How to use
+
+# Change the URL of your preferred cortito installation (by default it's "http://akos.ma/":http://akos.ma/)
+# Build the project in "Release" mode.
+# Go to the "build/Release" subfolder and double-click on the ShortenWithCortito.action file. This will install a new workflow action in Automator.
+# You can use this action, for example, to create a Mac OS X "service" (such a project is included in the "Workflow" subfolder).
+
+h2. License
+
+This code is released under a liberal BSD license. See the LICENSE file for details.
