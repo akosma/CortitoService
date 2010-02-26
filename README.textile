@@ -7,7 +7,7 @@ h2. How to use
 # Change the URL of your preferred cortito installation (by default it's "http://akos.ma/":http://akos.ma/)
 # Build the project in "Release" mode.
 # Go to the "build/Release" subfolder and double-click on the ShortenWithCortito.action file. This will install a new workflow action in Automator.
-# You can use this action, for example, to create a Mac OS X "service" (such a project is included in the "Workflow" subfolder).
+# You can use this action, for example, to create a Mac OS X "service" (such a project is included in the "Workflow" subfolder). Install this service in ~/Library/Services to be able to shorten URLs from most Mac OS X applications. 
 
 h2. License
 
